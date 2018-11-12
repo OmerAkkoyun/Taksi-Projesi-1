@@ -1,0 +1,186 @@
+body{
+    /*background: #FFC107;*/
+    background: white;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+
+.container{
+    margin: 0;
+}
+
+#baslik{
+    font-size: 35px;
+    font-weight: bold;
+    background: #FFC107;
+    color: white;
+  
+}
+#baslik:hover{
+ color: #FFC107;
+    background: white;
+  
+}
+
+.clear{
+    clear: both;
+}
+
+#nav-menu{
+    float: right;
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+#nav-menu li{
+    display: inline-block;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-size: 18px;
+    
+}
+
+#kaplayici{
+    width: 100%;
+    background-color: #D9D9DA;
+     margin: 0px 0px;
+    height: 75px;
+    
+}
+.linkler a{
+    padding: 0;
+    text-decoration: none;
+    padding: 10px;
+    color: #FFC107;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 3px;
+     box-shadow: 0px 8px 10px 0 rgba(0, 0, 0, .5);
+    font-weight: bold;
+    
+}
+.linkler a:hover{
+     border-radius: 2px;
+    box-shadow: 0px 10px 12px 0 rgba(0, 0, 0, .5);
+}
+#orta{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.card-sett{
+    margin:10px;
+    box-shadow: 0px 8px 10px 0 rgba(0, 0, 0, .5);
+    border-radius: 1px;
+    cursor: pointer;
+    
+}
+.card-sett:hover{
+     box-shadow: 0px 12px 15px 0 rgba(0, 0, 0, .6);
+}
+.card-body{
+    display: none;
+}
+
+#cards{
+    float: left;
+    width: 33%;
+    
+}
+#card-ul{
+    list-style: none;
+}
+
+.carousel{
+    box-shadow: 0px 12px 15px 0 rgba(0, 0, 0, .6);
+
+}
+
+
+
+.c_phone{
+    margin-top: 20px;
+    background: #FFC107;
+    height: 200px;
+    color: white;
+    font-size: 65px;
+    padding-left: 380px;
+    
+    
+}
+
+
+/****************************************************************************/
+/********************HAKKINDA KISMI*********************************/
+
+
+
+
+.hakkinda{
+    margin: 30px;
+    margin-bottom: 140px;
+    padding: 30px;
+    height: 630px;
+    background: #D9D9DA;
+    border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+    box-shadow: 0px 12px 15px 0 rgba(0, 0, 0, .6);
+}
+
+.hakkinda:hover{
+
+   
+    box-shadow: 0px 15px 20px 0 rgba(0, 0, 0, .6);
+}
+
+.header{
+    text-align: center;
+}
+
+#hakkindaP{
+    text-align: justify;
+   font-size: 20px;
+}
+
+/****************************************************************************/
+/********************iletisim KISMI*********************************/
+
+.color1{
+    color:#FFC107;
+    font-weight: bold;
+    background: white;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+
+.iletisim{
+    background: #D9D9DA;
+     height: 800px;
+}
+
+.email{
+    text-decoration: none;
+    color: red;
+}
+
+
+.footer{
+    background: #000000;
+    color: white;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
